@@ -1,0 +1,7 @@
+.git
+tmp
+shared
+log
+node_modules
+public/assets
+.bundle
