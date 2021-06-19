@@ -11,6 +11,6 @@ class FlyController < ApplicationController
 
   def parse_db
     db = URI.parse(ENV['DATABASE_URL'])
-    @db_host_port = "#{db.host}#{db.port}"
+    @db_host_port = "#{db.host}:#{db.port}"
   end
 end
