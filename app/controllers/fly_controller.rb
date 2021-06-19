@@ -1,6 +1,7 @@
 class FlyController < ApplicationController
   def show
-     render text: ENV["DATABASE_URL"]
+    db = URI.parse(ENV['DATABASE_URL'])
+    @db_host_port = "#{db.host}#{db.port}"
   end
 
   def write

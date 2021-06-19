@@ -3,7 +3,7 @@
 <p>Posted!</p>
 <% end %>
 <div>
-Database URL: <%= ENV['DATABASE_URL'] %>
+Database host/port: <%= @db_host_port %>
 </div>
 <div>
 Fly region: <%= ENV['FLY_REGION']%>
@@ -12,3 +12,9 @@ Fly region: <%= ENV['FLY_REGION']%>
   <input type="submit" value="Write me now">
 <% end %>
 </div>
+
+<ul>
+<% Writeable.all.each do |w| %>
+<li><%= w.created_at %><li>
+<% end %>
+</ul>

@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/jsierles/fly-multiregion.git
-  revision: 886ab22f1e66b10684be947496bbb54088f45489
-  ref: 886ab22f1e66b10684be947496bbb54088f45489
+  revision: eb9f66f1e99709769503cdbe9c433ed0c10d66ee
+  ref: eb9f66f1e99709769503cdbe9c433ed0c10d66ee
   specs:
     fly-multiregion (0.0.1)
       railties (>= 5.0)
