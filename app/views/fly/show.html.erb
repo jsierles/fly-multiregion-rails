@@ -1,2 +1,14 @@
+<div style="font-size: 150%;">
+<% if request.post? %>
+<p>Posted!</p>
+<% end %>
+<div>
 Database URL: <%= ENV['DATABASE_URL'] %>
+</div>
+<div>
 Fly region: <%= ENV['FLY_REGION']%>
+</div>
+<%= form_tag '/write' do %>
+  <input type="submit" value="Write me now">
+<% end %>
+</div>

@@ -1,0 +1,2 @@
+class Writeable < ApplicationRecord
+end
