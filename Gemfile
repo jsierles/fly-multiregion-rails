@@ -53,6 +53,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'fly-multiregion', github: "jsierles/fly-multiregion", ref: "eb9f66f1e99709769503cdbe9c433ed0c10d66ee"
-#gem 'fly-multiregion', path: "../fly-multiregion"
+gem 'fly-rails', github: "jsierles/fly-rails", branch: "sticky-writes-via-sessions"
+#gem 'fly-rails', path: "../fly-rails"
 gem 'pg'
