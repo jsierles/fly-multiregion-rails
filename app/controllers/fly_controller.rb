@@ -10,6 +10,7 @@ class FlyController < ApplicationController
   end
 
   def parse_db
+    return unless ENV['DATABASE_URL']
     db = URI.parse(ENV['DATABASE_URL'])
     @db_host_port = "#{db.host}:#{db.port}"
   end
