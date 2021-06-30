@@ -12,7 +12,6 @@ Fly region: <%= ENV['FLY_REGION']%>
   <input type="submit" value="Write me now">
 <% end %>
 </div>
-<%= session.inspect %>
 <ul>
 <% Writeable.all.each do |w| %>
 <li><%= w.created_at %><li>
