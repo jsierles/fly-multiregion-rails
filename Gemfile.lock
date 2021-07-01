@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jsierles/fly-rails.git
-  revision: c288a5a37873cb1d4fbf5c69559b0a6a3003357d
+  revision: a17fc861b2c38c54a50a1a8913da25ebd1584e15
   branch: configurable
   specs:
     fly-rails (0.0.1)
