@@ -52,7 +52,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
-gem 'fly-rails', github: "jsierles/fly-rails", branch: "sticky-writes-via-sessions"
+gem 'fly-rails', github: "jsierles/fly-rails", branch: "configurable"
 #gem 'fly-rails', path: "../fly-rails"
 gem 'pg'

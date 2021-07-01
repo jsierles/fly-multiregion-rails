@@ -17,3 +17,9 @@ Fly region: <%= ENV['FLY_REGION']%>
 <li><%= w.created_at %><li>
 <% end %>
 </ul>
+
+<pre>
+<% request.headers.each do |k, v| %>
+<b><%= k %>: </b> <%= v %>
+<% end %>
+</pre>

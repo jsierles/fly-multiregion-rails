@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/jsierles/fly-rails.git
-  revision: a43e1cba3b0b9329b0fd3e0a0c5fe4aa763fe63b
-  branch: sticky-writes-via-sessions
+  revision: c288a5a37873cb1d4fbf5c69559b0a6a3003357d
+  branch: configurable
   specs:
     fly-rails (0.0.1)
       railties (>= 5.0)
