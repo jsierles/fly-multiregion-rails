@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/soupedup/fly-rails.git
-  revision: ed4f6a484b5d1268728fb1d9f85200134027d24a
-  branch: configurable
+  revision: cad3d9f19076772d40ef752c1d599e10749cfb8d
   glob: fly-rails/*.gemspec
   specs:
     fly-rails (0.0.1)
@@ -11,8 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/soupedup/fly-rails.git
-  revision: ed4f6a484b5d1268728fb1d9f85200134027d24a
-  branch: configurable
+  revision: cad3d9f19076772d40ef752c1d599e10749cfb8d
   glob: fly-ruby/*.gemspec
   specs:
     fly-ruby (0.0.1)
