@@ -1,5 +1,13 @@
 GIT
   remote: https://github.com/soupedup/fly-rails.git
+  revision: 9056d587bb08e91c8dbbda370220ee92a6276e99
+  glob: fly-ruby/*.gemspec
+  specs:
+    fly-ruby (0.0.1)
+      rack (>= 2.0)
+
+GIT
+  remote: https://github.com/soupedup/fly-rails.git
   revision: cad3d9f19076772d40ef752c1d599e10749cfb8d
   glob: fly-rails/*.gemspec
   specs:
@@ -7,14 +15,6 @@ GIT
       fly-ruby (~> 0.0.1)
       rack (>= 2.0)
       railties (>= 5.0)
-
-GIT
-  remote: https://github.com/soupedup/fly-rails.git
-  revision: cad3d9f19076772d40ef752c1d599e10749cfb8d
-  glob: fly-ruby/*.gemspec
-  specs:
-    fly-ruby (0.0.1)
-      rack (>= 2.0)
 
 GEM
   remote: https://rubygems.org/
