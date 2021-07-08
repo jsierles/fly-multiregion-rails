@@ -43,13 +43,23 @@ COPY package.json yarn.lock ./
 RUN --mount=type=cache,target=/cache,id=node \
     bin/rsync-cache /cache node_modules "yarn"
 
-COPY . .
 
 ENV NODE_ENV production
+
+COPY bin bin
+COPY Rakefile Rakefile
+COPY lib lib
+COPY config config
+COPY app/assets app/assets
+COPY app/javascript app/javascript
+COPY babel.config.js babel.config.js
+COPY postcss.config.js postcss.config.js
 
 RUN bin/rails assets:precompile
 
 RUN rm -rf node_modules vendor/bundle/ruby/*/cache
+
+COPY . .
 
 FROM quay.io/evl.ms/fullstaq-ruby:${RUBY_VERSION}-slim
 
