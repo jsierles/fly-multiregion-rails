@@ -1,20 +1,9 @@
 GIT
-  remote: https://github.com/soupedup/fly-rails.git
-  revision: 1241979175aeb98cce0c21edd26053c5ac19b398
-  glob: fly-ruby/*.gemspec
+  remote: https://github.com/superfly/fly-ruby.git
+  revision: c26574513fb4ca0e397956be717e7056122d6776
   specs:
-    fly-ruby (0.0.1)
-      rack (>= 2.0)
-
-GIT
-  remote: https://github.com/soupedup/fly-rails.git
-  revision: cad3d9f19076772d40ef752c1d599e10749cfb8d
-  glob: fly-rails/*.gemspec
-  specs:
-    fly-rails (0.0.1)
-      fly-ruby (~> 0.0.1)
-      rack (>= 2.0)
-      railties (>= 5.0)
+    fly-ruby (0.1.1)
+      rack (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -219,7 +208,6 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
-  fly-rails!
   fly-ruby!
   jbuilder (~> 2.7)
   listen (~> 3.3)

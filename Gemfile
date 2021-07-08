@@ -52,8 +52,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'fly-ruby', github: "soupedup/fly-rails", glob: "fly-ruby/*.gemspec"
-gem 'fly-rails', github: "soupedup/fly-rails", glob: "fly-rails/*.gemspec"
-#gem 'fly-ruby', path: "../fly-ruby/fly-ruby"
-#gem 'fly-rails', path: "../fly-ruby/fly-rails"
+gem 'fly-ruby', github: "superfly/fly-ruby"
 gem 'pg'
