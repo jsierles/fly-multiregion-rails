@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root "fly#show"
   get :fly, to: "fly#show"
   post :write, to: "fly#write"
+  post :exception, to: "fly#exception"
 end

@@ -9,6 +9,13 @@ class FlyController < ApplicationController
     render :show
   end
 
+  def exception
+    if Fly.configuration.in_secondary_region?
+      raise PG::ReadOnlySqlTransaction
+    end
+    render :show
+  end
+
   def parse_db
     return unless ENV['DATABASE_URL']
     db = URI.parse(ENV['DATABASE_URL'])

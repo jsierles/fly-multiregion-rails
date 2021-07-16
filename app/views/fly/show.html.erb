@@ -11,6 +11,9 @@ Fly region: <%= ENV['FLY_REGION']%>
 <%= form_tag '/write' do %>
   <input type="submit" value="Write me now">
 <% end %>
+<%= form_tag '/exception' do %>
+  <input type="submit" value="Throw a a db exception now">
+<% end %>
 </div>
 <ul>
 <% Writeable.all.each do |w| %>
